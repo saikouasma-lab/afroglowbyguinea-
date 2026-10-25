@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset ="UTF-8"/>
+<style>
+    body{background-Color:white}
+    h1{color:red; }
+    h2{color:green; }
+    p{color:purple; }
+</style>
+</head>
+<body>
+
+<img src="logo.jpg" width="200"/>
+
+<h1>AFROGLOW 👑</h1>
+<h2>Cheveux afro 100% naturels 🌿</h2>
+<p>Saikou's Store</p>
+
+<button onclick="commander()"
+style="background-color:#25D366; color:white; padding:15px 30px; border:none; border-radius:30px; font-size:18px;">
+📞 Commander sur WhatsApp
+</button>
+
+<button onclick="direwelcome()">Bienvenue</button>
+
+
+<script>
+function direwelcome() {
+alert("Welcome to AfroGlow✨ !");
+}
+
+function commander() {
+  location.href='https://wa.me/224629922778';
+}
+</script>
+
+</body>
+
+</html>
